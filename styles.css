@@ -1,0 +1,38 @@
+body {
+    height: 100vh;
+    margin: 0;
+}
+
+.frase { 
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+    font-size: 36px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.frase p {
+    font-size: 100px;
+    font-style: bold;
+    margin: 0;
+    transition: color 1s ease;
+    color: white;
+}
+
+.frase p:hover {
+    background-image: linear-gradient(to right, violet, indigo, blue, green, yellow, orange, red);
+    -webkit-background-clip: text;
+    color: transparent;
+    background-clip: text;
+}
+
+.frase-aluna {
+    background-image: linear-gradient(to right, violet, indigo, blue, green, yellow, orange, red);
+    -webkit-background-clip: text;
+    color: transparent;
+    background-clip: text;
+    padding: 20px;
+    margin-top: 700px;
+}
