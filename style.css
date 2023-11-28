@@ -1,0 +1,41 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.navbar {
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-right: auto;
+  padding-left: 30px;
+}
+
+.btn {
+  border: none;
+  padding: 10px;
+  font-size: 14px;
+  color: black;
+  border-radius: 8px;
+  text-decoration: none;
+}
+.blue {
+  background-color: rgba(0, 100, 218, 1);
+  color: white;
+}
+.black {
+  background-color: black;
+  color: white;
+}
+img {
+  width: 20px;
+}
