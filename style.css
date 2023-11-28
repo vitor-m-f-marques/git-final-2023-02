@@ -21,11 +21,20 @@ body {
 }
 
 .btn {
+  border: none;
   padding: 10px;
   font-size: 14px;
   color: black;
   border-radius: 8px;
   text-decoration: none;
+}
+.blue {
+  background-color: rgba(0, 100, 218, 1);
+  color: white;
+}
+.black {
+  background-color: black;
+  color: white;
 }
 img {
   width: 20px;
