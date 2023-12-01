@@ -18,6 +18,35 @@
         }
 
         console.log(carro.getMarca())
+
+        console.log("000000000000000000000000000000000000000000000000")
+
+        let carros = []
+
+        carros.push({
+            marca: "Nissan",
+            getMarca: function () {
+                return this.marca
+            }
+        })
+
+        carros.push({
+            marca: "MBW",
+            getMarca: function () {
+                return this.marca
+            }
+        })
+
+        carros.push({
+            marca: "Mercedes",
+            getMarca: function () {
+                return this.marca
+            }
+        })
+
+        carros.forEach(element => {
+            console.log(element)
+        });
     </script>
 
 </body>
