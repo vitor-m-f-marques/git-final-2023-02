@@ -19,7 +19,7 @@
 
         console.log(carro.getMarca())
 
-        console.log("000000000000000000000000000000000000000000000000")
+        console.log("-------------------------------------------------------------")
 
         let carros = []
 
@@ -47,6 +47,14 @@
         carros.forEach(element => {
             console.log(element)
         });
+
+        console.log("-------------------------------------------------------------")
+
+        setInterval(() => {
+            let dataActual = new Date();
+            console.log(dataActual.getHours() + " : " + dataActual.getMinutes() + " : " + dataActual.getSeconds())
+        }, 1000);
+
     </script>
 
 </body>
