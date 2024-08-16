@@ -1,0 +1,13 @@
+h1 {
+    text-align: center;
+}
+
+ul a {
+margin-right :10px;
+text-decoration: none;
+color: blue;
+}
+
+section {
+    width: 50%;
+}
